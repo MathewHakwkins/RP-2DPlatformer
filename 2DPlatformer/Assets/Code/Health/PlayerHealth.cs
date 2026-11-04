@@ -7,6 +7,7 @@ public class PlayerHealth : MonoBehaviour
     public float InvulFrames = 0;
     public float MaxInvul = 1;
     public float Lives = 2;
+    public float HitDamage = 1;
 
     private float RespawnHealth = 2;
 
