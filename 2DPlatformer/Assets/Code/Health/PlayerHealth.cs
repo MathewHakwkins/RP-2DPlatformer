@@ -4,14 +4,25 @@ public class PlayerHealth : MonoBehaviour
 {
     public float health = 2;
     public Vector2 RespawnPoint = Vector2.zero;
-
+    public float InvulFrames = 0;
+    public float MaxInvul = 1;
     public float Lives = 2;
 
+    private float RespawnHealth = 2;
 
+
+    private void Update()
+    {
+        if (InvulFrames > 0)
+        {
+            InvulFrames -= Time.deltaTime;
+        }
+    }
 
 
     public void Damage(float DamageAmount)
     {
+        Debug.Log("Damage Called");
         health -= DamageAmount;
         if ((health <= 0) && (Lives <= 0))
         {
@@ -21,10 +32,11 @@ public class PlayerHealth : MonoBehaviour
         {
             Respawn();
             Lives -= 1;
+            health = RespawnHealth;
         }
         else
         {
-            return;
+            InvulFrames = MaxInvul;
         }
     }
 

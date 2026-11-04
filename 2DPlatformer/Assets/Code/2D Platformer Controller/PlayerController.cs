@@ -176,8 +176,9 @@ public class PlayerController : MonoBehaviour
             rb.linearVelocityX = 0;
     }
 
-    private void Jump()
+    public void Jump()
     {
+        
         rb.linearVelocityY = jumpSpeed;
         timeInJump += Time.fixedDeltaTime;
     }
