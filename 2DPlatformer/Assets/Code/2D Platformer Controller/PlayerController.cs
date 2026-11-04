@@ -183,6 +183,12 @@ public class PlayerController : MonoBehaviour
         timeInJump += Time.fixedDeltaTime;
     }
 
+    public void MegaJump(float Power)
+    {
+        rb.linearVelocityY = jumpSpeed * Power;
+        timeInJump += Time.fixedDeltaTime;
+    }
+
     private void ResetJumps()
     {
         timeInJump = 0;
