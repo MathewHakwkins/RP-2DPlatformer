@@ -3,6 +3,7 @@ using UnityEngine;
 public class DamagingArea : MonoBehaviour
 {
     public float DamageAmount = 1;
+    public bool Projectile = false;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -21,6 +22,11 @@ public class DamagingArea : MonoBehaviour
                     
                 }
 
+                if (Projectile == true)
+                {
+                    Destroy(gameObject);
+
+                }
 
 
             }
