@@ -9,10 +9,10 @@ public class Collectable : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            PlayerController AddScoreTo = collision.GetComponent<PlayerController>();
+            PlayerScore AddScoreTo = collision.GetComponent<PlayerScore>();
             if (AddScoreTo != null)
             {
-                AddScoreTo.Addscore(Score);
+                AddScoreTo.UpScore(Score);
                 Destroy(gameObject);
             }
         }

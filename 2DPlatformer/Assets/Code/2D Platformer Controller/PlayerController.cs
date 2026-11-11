@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(CapsuleCollider2D))]
 public class PlayerController : MonoBehaviour
@@ -14,7 +15,8 @@ public class PlayerController : MonoBehaviour
     public float maxJumpTime = 0.1f;
     public LayerMask groundLayers;
 
-    public int Score = 0;
+    
+
 
 
 
@@ -133,11 +135,8 @@ public class PlayerController : MonoBehaviour
                 break;
         }
     }
-    public void Addscore(int ScoreNum)
-    {
-        Score += ScoreNum;
-        Debug.Log(Score);
-    }
+    
+
     public void OnWallTriggerExit(Direction direction)
     { 
         switch (direction)
