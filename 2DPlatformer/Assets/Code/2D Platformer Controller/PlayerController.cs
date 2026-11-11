@@ -269,6 +269,7 @@ public class PlayerController : MonoBehaviour
         RaycastHit2D hit = Physics2D.CircleCast(rayStart, rayRadius, Vector2.down,
             rayLength, groundLayers);
         isGrounded = hit.collider != null;
+        
     }
 }
 

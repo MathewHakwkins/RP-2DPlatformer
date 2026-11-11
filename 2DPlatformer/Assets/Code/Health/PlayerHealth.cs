@@ -23,7 +23,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void Damage(float DamageAmount)
     {
-        Debug.Log("Damage Called");
+        
         health -= DamageAmount;
         if ((health <= 0) && (Lives <= 0))
         {
