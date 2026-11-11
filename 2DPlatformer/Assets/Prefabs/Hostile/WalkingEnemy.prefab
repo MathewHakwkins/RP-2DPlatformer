@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6289067325148478836}
   - component: {fileID: 9039651785751682613}
   - component: {fileID: 2672223560903449480}
+  - component: {fileID: 3211684702191937550}
   m_Layer: 0
   m_Name: WalkingEnemy
   m_TagString: Untagged
@@ -174,6 +175,21 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Size: {x: 1, y: 2}
   m_Direction: 0
+--- !u!114 &3211684702191937550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1385784533214669227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3503b80b30a06b746bf95bf33f6ca8ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MovementBehavior
+  PointA: {x: 0, y: 0}
+  PointB: {x: 0, y: 0}
+  speed: 1
 --- !u!1 &3076854055830152798
 GameObject:
   m_ObjectHideFlags: 0
@@ -267,6 +283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DamagingArea
   DamageAmount: 1
+  Projectile: 0
 --- !u!50 &1388301237315840240
 Rigidbody2D:
   serializedVersion: 5

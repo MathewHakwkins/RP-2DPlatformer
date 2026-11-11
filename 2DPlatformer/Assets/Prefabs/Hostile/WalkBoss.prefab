@@ -254,6 +254,7 @@ GameObject:
   - component: {fileID: 5340898570068513962}
   - component: {fileID: 3120000916768620693}
   - component: {fileID: 6023118766467197525}
+  - component: {fileID: 6210192008309390418}
   m_Layer: 0
   m_Name: WalkBoss
   m_TagString: Untagged
@@ -415,3 +416,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   Health: 3
+--- !u!114 &6210192008309390418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5967989707948489666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3503b80b30a06b746bf95bf33f6ca8ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MovementBehavior
+  PointA: {x: 0, y: 0}
+  PointB: {x: 0, y: 0}
+  speed: 1
