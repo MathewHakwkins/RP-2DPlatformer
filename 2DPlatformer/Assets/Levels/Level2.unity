@@ -2672,9 +2672,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1506993218567390046, guid: 2084ed51a00c0d74e825eedc15ade3a3, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2158471037705232035, guid: 2084ed51a00c0d74e825eedc15ade3a3, type: 3}
       propertyPath: m_Name
       value: MovingPlatform
+      objectReference: {fileID: 0}
+    - target: {fileID: 2158471037705232035, guid: 2084ed51a00c0d74e825eedc15ade3a3, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2614431851635775771, guid: 2084ed51a00c0d74e825eedc15ade3a3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -96499,6 +96507,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c21cd6eaf72a71644aa94246114512cf, type: 3}
+--- !u!1 &1103722506 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 76533445366831246, guid: c21cd6eaf72a71644aa94246114512cf, type: 3}
+  m_PrefabInstance: {fileID: 1578377825}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1113182190
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -97271,7 +97284,7 @@ PrefabInstance:
     - target: {fileID: 6672303755176781637, guid: 9435f448b7442aa4d9eb7179edd8562d, type: 3}
       propertyPath: Boss
       value: 
-      objectReference: {fileID: 1578377827}
+      objectReference: {fileID: 1103722506}
     - target: {fileID: 7420661125627173181, guid: 9435f448b7442aa4d9eb7179edd8562d, type: 3}
       propertyPath: m_Name
       value: Door
@@ -97593,7 +97606,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1286873314720143387, guid: 5cd3159d88fa1e4439c30e031e8550c8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1286873314720143387, guid: 5cd3159d88fa1e4439c30e031e8550c8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -98086,11 +98099,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c21cd6eaf72a71644aa94246114512cf, type: 3}
---- !u!1 &1578377827 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8483741735215993285, guid: c21cd6eaf72a71644aa94246114512cf, type: 3}
-  m_PrefabInstance: {fileID: 1578377825}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1631655964
 PrefabInstance:
   m_ObjectHideFlags: 0

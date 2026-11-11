@@ -55,12 +55,14 @@ public class PlayerController : MonoBehaviour
         // Reset jumping if on ground
         if (isGrounded)
         {
+            
             ResetJumps();
             isWallJumping = false;
         }
 
         if (isWalledLeft || isWalledRight)
         {
+            
             HandleWallHangFixed();
         }
         else if (jumpInput || jumpReleased)
@@ -219,6 +221,7 @@ public class PlayerController : MonoBehaviour
                 isWallJumping = true;
                 Jump();
                 SetMovement(-moveInput.x);
+                Debug.Log("bip");
             }
         }
         else
