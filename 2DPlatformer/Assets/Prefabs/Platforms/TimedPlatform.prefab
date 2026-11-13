@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1000481300219324740}
   - component: {fileID: 2269447066847503750}
   - component: {fileID: 1056319319520433625}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: TimedPlatform
   m_TagString: Platform
   m_Icon: {fileID: 0}
@@ -228,3 +228,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TimedPlatform
   Life: 5
+  Fade: 3

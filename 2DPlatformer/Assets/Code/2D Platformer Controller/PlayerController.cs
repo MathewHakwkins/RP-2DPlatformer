@@ -221,7 +221,7 @@ public class PlayerController : MonoBehaviour
                 isWallJumping = true;
                 Jump();
                 SetMovement(-moveInput.x);
-                Debug.Log("bip");
+                
             }
         }
         else

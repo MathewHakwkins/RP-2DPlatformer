@@ -176,6 +176,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2614431851635775771}
+  - component: {fileID: 8139857812970214885}
   m_Layer: 0
   m_Name: MovingPlatformNPD
   m_TagString: Platform
@@ -199,3 +200,18 @@ Transform:
   - {fileID: 3405861006932940680}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8139857812970214885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2158471037705232035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44924d9e80b5e2e459382fec8c977aad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MovingPlatformNPD
+  PointA: {x: 0, y: 0}
+  PointB: {x: 0, y: 0}
+  speed: 1
