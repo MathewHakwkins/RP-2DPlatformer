@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1826680186814202094}
   - component: {fileID: 585397552379496430}
   - component: {fileID: 3802631907056750199}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Sprite
   m_TagString: Platform
   m_Icon: {fileID: 0}
@@ -176,7 +176,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2614431851635775771}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: MovingPlatformNPD
   m_TagString: Platform
   m_Icon: {fileID: 0}
