@@ -2614,7 +2614,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994239610865872319, guid: 2084ed51a00c0d74e825eedc15ade3a3, type: 3}
       propertyPath: speed
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6994239610865872319, guid: 2084ed51a00c0d74e825eedc15ade3a3, type: 3}
       propertyPath: PointA.x
@@ -140886,9 +140886,21 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1807455899}
+    - target: {fileID: 5989382883861749412, guid: 5cd3159d88fa1e4439c30e031e8550c8, type: 3}
+      propertyPath: health
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5989382883861749412, guid: 5cd3159d88fa1e4439c30e031e8550c8, type: 3}
+      propertyPath: RespawnPoint.x
+      value: -44.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5989382883861749412, guid: 5cd3159d88fa1e4439c30e031e8550c8, type: 3}
+      propertyPath: RespawnPoint.y
+      value: 6.25
+      objectReference: {fileID: 0}
     - target: {fileID: 7074149746020338495, guid: 5cd3159d88fa1e4439c30e031e8550c8, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8303997382828594638, guid: 5cd3159d88fa1e4439c30e031e8550c8, type: 3}
       propertyPath: moveSpeed
